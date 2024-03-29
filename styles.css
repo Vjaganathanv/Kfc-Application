@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* system view */
+@media screen and (min-width:720px) {
+
+  #menubar {
+    display: none;
+  }
+
+p
+{
+text-align: center;
+}
+
+h6
+{
+    color: white;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+  }
+
+hr
+{
+  color: aliceblue;
+}
+
+p
+{
+  color: aliceblue;
+}
+
+footer
+{
+  font-size: small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+}
